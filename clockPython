@@ -1,0 +1,30 @@
+### Importing modules 
+
+from time import *
+from tkinter import *
+
+root = Tk ()
+root.title( "Clock" )
+
+### defining our time function
+def time():
+       my_time = strftime("%H:%M:%S %a %Y)
+       label.config(text=my_time)
+       label.after(1000, time)
+
+
+
+### Labelling our time and packing it
+### The font used is already installed in my system
+
+### use the link [DS DGITAL FONT](https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.dafont.com/ds-digital.font&ved=2ahUKEwiJzOah_7n2AhUg8LsIHYIUBAQQFnoECAQQAQ&usg=AOvVaw0b4Gey4OA7D_wCApdwxnAW)
+
+label = Label(root, font=( `ds-digital`, 80), background= `black`, foreground= `red`)
+
+### anchor means we are positioning our time 
+### to fit in the center 
+label.pack(anchor= `center`)
+
+time ()
+
+mainloop()
