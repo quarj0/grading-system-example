@@ -1,4 +1,5 @@
 # Learn-With-Young
 This is a simple school grading system for beginners in python.
 You can edit it to be more powerful.
-Remember to subscribe and hit the notification icon for more tutorials
+The usage of classes and object if you know can be more precise. 
+Eliminating the plenty if and else statements.
