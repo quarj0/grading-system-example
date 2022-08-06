@@ -1,14 +1,5 @@
-print('''*  *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *
-         *                                                              *
-         *  W   E   L   C   O   M   E                                   *
-         *                                                              *
-         *                           T  O                               *
-         *                I.T                                           *
-         *  G   R   A   D   I   N   G                                   *
-         *                              S   Y   S   T   E   M           *
-         *                                                              *
-         *                                                              *
-         *  *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *''')
+import pyfiglet
+message = pyfiglet.figletFormat("Welcome buddy!")
 
 name = input('Enter your name: ')
 
