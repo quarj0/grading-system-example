@@ -1,8 +1,8 @@
 import pyfiglet
 message = pyfiglet.figletFormat("Welcome buddy!")
+print(message)
 
 name = input('Enter your name: ')
-
 
 grade = ['A', 'B+', 'B', 'C+', 'C', 'D+', 'D', 'E']
 
@@ -32,5 +32,9 @@ elif '50' <= score <= '54':
 
 else:
     print("Your score grade is", grade[7], 'Fail')
+
+import pprint
+jokes = " This is for absolute beginners"
+pprint.pprint(jokes)
 
 
